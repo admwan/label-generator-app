@@ -1,0 +1,14 @@
+	<!DOCTYPE html>
+	<html xmlns:th="http://www.thymeleaf.org">
+	<head><title>Question</title></head>
+	<body>
+	    <h1 th:text="${message}"></h1>
+	    <form action="/answer" method="post">
+	        <p>What's your favorite programming language?</p>
+	        <input type="text" name="answer"/>
+	        <button type="submit">Submit</button>
+	    </form>
+	</body>
+	</html>
+
+
